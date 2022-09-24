@@ -11,6 +11,10 @@
     margin: 20px 0px 100px 0px;
 }
 
+.headerContainer.listMode {
+    margin: 20px 0px 0px 0px;
+}
+
 .headerList {
     display: flex;
     gap: 40px;
@@ -66,4 +70,47 @@
 .headerSearchInput {
     border: none;
     outline: none;
+}
+
+.date {
+    position: absolute;
+    bottom: 26px;
+    z-index: 2;
+}
+
+.options {
+    position: absolute;
+    bottom: 300px;
+    border-radius: 5px;
+    background-color: rgb(237, 237, 237);
+    -webkit-box-shadow: 0px 0px 15px -5px rgba(204, 244, 96, 0.4);
+    box-shadow: 0px 0px 25px -5px rgba(0, 0, 0, 0.313);
+}
+
+.optionItem {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.optionCounter {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.optionCounterButton {
+    margin: 1px;
+    width: 22px;
+    height: 22px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionCounterButton:disabled {
+    cursor: not-allowed;
 }
