@@ -6,8 +6,12 @@ const hotelsRoute = require("./routes/hotels")
 const roomsRoute = require("./routes/rooms")
 const usersRoute = require("./routes/users");
 const cookieParser = require("cookie-parser");
-const app = express()
+const app = express();
+var cors = require('cors');
 
+app.use(cors());
+
+dotenv.config();
 
 const connect = async() => {
     try {
@@ -17,8 +21,6 @@ const connect = async() => {
         throw new Error(error);
     }
 }
-
-dotenv.config();
 
 app.use(cookieParser());
 app.use(express.json());

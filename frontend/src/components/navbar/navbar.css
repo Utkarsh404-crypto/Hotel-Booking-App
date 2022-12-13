@@ -26,3 +26,8 @@
     color: #088F8F;
     font-weight: bold;
 }
+
+.loggedIn span#logout {
+    margin-left: 2rem;
+    cursor: pointer;
+}

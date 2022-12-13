@@ -1,7 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./Pages/Home.js";
-import Hotel from "./hotel/Hotel.js";
-import List from "./list/List.js";
+import Home from "./Pages/home/Home";
+import Hotel from "./hotel/Hotel";
+import List from "./list/List";
+import Login from "./Pages/login/Login";
+import Register from "./Pages/register/Register";
 
 function App() {
 	return (
@@ -10,16 +12,24 @@ function App() {
 				<Route
 					path="/"
 					element={<Home />}
-				/>
+				/>{" "}
 				<Route
 					path="/hotels"
 					element={<List />}
-				/>
+				/>{" "}
 				<Route
 					path="/hotels/:id"
 					element={<Hotel />}
-				/>
-			</Routes>
+				/>{" "}
+				<Route
+					path="/login"
+					element={<Login />}
+				/>{" "}
+				<Route
+					path="/register"
+					element={<Register />}
+				/>{" "}
+			</Routes>{" "}
 		</BrowserRouter>
 	);
 }
