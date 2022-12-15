@@ -20,3 +20,10 @@
     margin-bottom: 10px;
     cursor: pointer;
 }
+
+@media (max-width: 992px) {
+    .fLists {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

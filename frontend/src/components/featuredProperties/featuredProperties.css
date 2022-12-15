@@ -42,3 +42,12 @@
 .fpRating>span {
     font-size: 14px;
 }
+
+@media (max-width: 992px) {
+    .fp {
+        gap: 10px;
+    }
+    .fpImg {
+        border-radius: 8px;
+    }
+}

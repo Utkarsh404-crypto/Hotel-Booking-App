@@ -43,6 +43,7 @@ const Register = () => {
 	return (
 		<div className="login">
 			<div className="lContainer">
+				<b className="texts">Create Account</b>
 				<input
 					type="text"
 					placeholder="username"

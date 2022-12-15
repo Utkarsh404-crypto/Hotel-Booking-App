@@ -82,3 +82,21 @@
 .listResult {
     flex: 3;
 }
+
+@media (max-width: 992px) {
+    .homeTitle {
+        width: fit-content;
+        font-size: 20px;
+    }
+    .listWrapper {
+        display: block;
+    }
+    .listSearch {
+        position: inherit;
+        background-color: aquamarine;
+        padding: 10px;
+        border-radius: 10px;
+        top: 4px;
+        height: max-content;
+    }
+}

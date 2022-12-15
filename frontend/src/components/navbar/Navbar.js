@@ -16,7 +16,7 @@ const Navbar = () => {
 					to="/"
 					style={{ color: "inherit", textDecoration: "none" }}>
 					{" "}
-					<span className="logo"> Booking </span>{" "}
+					<span className="logo"> Come - Inn </span>{" "}
 				</Link>{" "}
 				{user ? (
 					<div className="loggedIn">

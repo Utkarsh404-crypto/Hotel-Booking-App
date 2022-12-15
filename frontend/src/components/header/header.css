@@ -114,3 +114,30 @@
 .optionCounterButton:disabled {
     cursor: not-allowed;
 }
+
+@media (max-width: 992px) {
+    .header {
+        width: 106%;
+    }
+    .headerList {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .headerSearch {
+        display: flex;
+        flex-wrap: wrap;
+        width: 97vw;
+        height: fit-content;
+    }
+    .headerSearchItem {
+        margin-top: 3px;
+    }
+    .date {
+        position: relative;
+        top: 10em;
+    }
+    .options {
+        position: relative;
+        top: 1em;
+    }
+}

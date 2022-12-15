@@ -34,3 +34,10 @@
     background-color: #0071c28c;
     cursor: not-allowed;
 }
+
+.texts {
+    font-size: 2rem;
+    color: #c2005e;
+    text-align: center;
+    box-shadow: 3px 3px #c2005e;
+}
