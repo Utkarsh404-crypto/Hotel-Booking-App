@@ -1,4 +1,4 @@
-Hotel-Booking-App allows you to book your favorite hotels accross the world.
+Hotel-Booking-App allows you to book your favorite hotels across the world.
 
 
 🏨---GO FOR IT!---🏨
